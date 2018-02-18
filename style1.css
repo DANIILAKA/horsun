@@ -1,0 +1,53 @@
+body {
+    background-image:url(BACKGROUNDMAIN.gif);
+    background-size:contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color:black;
+    
+}
+.bottons {
+    padding: inherit;
+    padding-left: 70%;
+    padding-top: 20%;
+    margin-right: 20px;
+    
+}
+.bot {
+    margin-bottom: 0px;
+    width: 260px;
+    margin-left: 0px;
+    position: relative;
+    opacity: 0;
+}
+.pot {
+    padding: 0px;
+    margin-top: 0px;
+    width: 335px;
+    margin-right:40%;
+    position: relative;
+    opacity: 0;
+}
+.bot:hover{
+    opacity: 100;
+}
+.botg {
+    width: 260px;
+    position: absolute;
+    margin-left: 0px;
+    
+}
+.botg:hover{
+    opacity: 0;
+}
+.potg {
+    width: 335px;
+    position: absolute;
+}
+.pot:hover{
+    opacity: 100
+}
+.bot{
+    
+}
